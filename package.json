@@ -36,6 +36,7 @@
     "uuid": "^13.0.0"
   },
   "devDependencies": {
+    "@netlify/vite-plugin-tanstack-start": "latest",
     "@tailwindcss/typography": "^0.5.16",
     "@tanstack/devtools-vite": "latest",
     "@testing-library/dom": "^10.4.1",
