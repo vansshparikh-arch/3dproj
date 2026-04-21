@@ -17,6 +17,9 @@ const config = defineConfig({
     viteReact(),
     netlify(),
   ],
+  ssr: {
+    noExternal: ['konva', 'react-konva'],
+  },
 })
 
 export default config
